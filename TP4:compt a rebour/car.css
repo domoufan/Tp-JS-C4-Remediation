@@ -1,0 +1,36 @@
+        body {
+            margin: 0;
+        }
+
+        .box-rebours {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .box_jour,
+        .box_heure,
+        .box_minute,
+        .box_seconde {
+            padding: 10px;
+        }
+
+        #jour,
+        #heure,
+        #minute,
+        #seconde {
+            background: black;
+            padding: 10px 20px;
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        #jour_label,
+        #heure_label,
+        #minute_label,
+        #seconde_label {
+            font-size: 1.5rem;
+        }

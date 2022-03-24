@@ -1,0 +1,72 @@
+body * {
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+
+}
+
+.les_films {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.description {
+    
+    padding: 1rem;
+    position: absolute;
+    border: 2px solid rgb(144, 80, 247);
+    background-color: aliceblue;
+    transition: 0.5s ease-out;
+    transform: translateY(200%);
+    bottom: 0;
+}
+
+header {
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+.film:hover .description {
+    transform: translateY(0%);
+    opacity: 1;
+    
+}
+
+.les_films .film {
+    width: 30%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0.5rem;
+    overflow: hidden;
+    background-color: rgb(144, 80, 247);
+}
+
+.film img {
+    width: 100%;
+    display: flex;
+
+}
+
+.desc {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    color: aliceblue;
+}
+
+.desc .note {
+    height: fit-content;
+    display: flex;
+    justify-content: baseline;
+    padding: 0.3rem;
+    border-radius: 5px;
+    background-color: black;
+}
