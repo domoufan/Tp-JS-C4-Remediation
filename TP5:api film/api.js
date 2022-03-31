@@ -31,7 +31,6 @@ function addmovie(data) {
         les_films.insertAdjacentElement('beforeend', film);
         document.body.appendChild(les_films);
     });
-    /*  console.log(les_films); */
 
 }
 
@@ -47,14 +46,12 @@ form.addEventListener('submit', (e) => {
 function createElementWithClass(elementName = 'div', className = '') {
     let element = document.createElement(elementName);
     className != '' ? element.classList.add(className) : null;
-
     return element;
 }
 
 function setImage(src = '') {
     let img = document.createElement('img');
     img.setAttribute('src', src);
-
     return img;
 }
 

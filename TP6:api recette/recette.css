@@ -32,7 +32,6 @@ body section {
     width: 100%;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2),
         0 5px 5px 0 rgba(0, 0, 0, 0.24);
-
 }
 
 .container .head {
@@ -76,6 +75,14 @@ body section {
     font-size: 1.2rem;
     font-weight: lighter;
 }
+.recette .genere:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
 
 form {
     width: 40%;
@@ -117,7 +124,7 @@ form {
 }
 
 .details {
-    border: 2px solid blue;
+    
     width: 55%;
     height: 90vh;
     position: absolute;
@@ -126,9 +133,6 @@ form {
         0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.details * {
-    border: 2px solid black;
-}
 
 .first_detail {
     height: 10%;
@@ -164,12 +168,15 @@ form {
 .third_detail {
     height: 50%;
     padding: 2%;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .first_third_detail {
     
     font-size: 1rem;
 }
-
+.titre_ingredient_third_detail{
+    margin: 2%;
+    font-size: 2rem;
+}
 .second_third_detail {}
